@@ -1,0 +1,37 @@
+.messages-profile {
+    width: 38px;
+    height: 38px;
+    border-radius: 100%;
+}
+
+.text-command {
+    padding-left: 54px;
+}
+
+.create-comment {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    top: 509px;
+    padding: 0 0;
+}
+
+@media (min-width: 768px) {
+
+    body {
+        overflow-y: hidden;
+    }
+
+    .forum {
+        overflow: scroll;
+        height: 500px;
+    }
+
+    .create-comment {
+        position: relative;
+        left: 0;
+        bottom: 0;
+        top: 0;
+        padding: 0 10px;
+    }
+}
