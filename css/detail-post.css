@@ -1,0 +1,96 @@
+.user-p {
+    margin-left: 18px;
+    margin-top: -10px;
+}
+
+.profile-img {
+    width: 34px;
+    height: 34px;
+    border-radius: 100%;
+    margin-bottom: 6px;
+}
+
+.username {
+    text-decoration: none;
+    width: auto;
+    margin-bottom: 10px;
+}
+
+.mt-1-5 {
+    margin-top: 0.2rem;
+    margin-left: 3px;
+}
+
+.username-top {
+    text-decoration: none;
+    width: auto;
+    padding-top: 50px !important;
+    font-size: 14px;
+}
+
+.description {
+    margin-top: -10px;
+}
+
+.username-bottom-and-description {
+    padding: 0 26px;
+}
+
+@media (min-width: 768px) {
+    .username-top {
+        text-decoration: none;
+        width: auto;
+        padding-top: 50px !important;
+        font-size: 15px;
+        margin-left: -10px;
+    }
+
+    .mt-1-5 {
+        margin-top: 0.9rem;
+        margin-left: 5px;
+    }
+
+    .profile-img {
+        width: 36px;
+        height: 36px;
+        border-radius: 100%;
+        margin-bottom: 10px;
+        margin-left: 4px;
+        margin-top: 10px;
+    }
+
+    .username-bottom-and-description {
+        padding: 0 0;
+        padding-right: 160px;
+        margin-left: 4px;
+    }
+
+    .margin-icon {
+        margin-left: 140px !important;
+        z-index: 10;
+    }
+
+    /* .img-post {
+        margin-top: -28px;
+    } */
+
+    .like {
+        font-size: 28px;
+        color: #2e2e2e;
+        transition: 0.4s;
+    }
+
+    .like:hover {
+        color: rgb(81, 190, 81);
+    }
+
+    .dislike {
+        font-size: 28px;
+        color: #2e2e2e;
+        transition: 0.4s;
+    }
+
+    .dislike:hover {
+        color: rgb(190, 81, 81);
+    }
+}

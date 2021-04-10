@@ -96,7 +96,7 @@ body {
     opacity: 0.6;
     transition: 0.4s;
     border-radius: 100%;
-    margin-bottom: 105px;
+    margin-bottom: 86px;
   }
 
   .sidebar-profile:hover {
@@ -128,7 +128,7 @@ body {
   /* logout */
 
   .logout {
-    margin-top: 175px;
+    margin-top: 108px;
   }
 
 

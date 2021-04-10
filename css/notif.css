@@ -1,0 +1,11 @@
+/* .notif {
+    opacity: 1;
+} */
+
+/* .notif {
+    transition: 1s;
+} */
+
+.read-messages {
+    display: none;
+}

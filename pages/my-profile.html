@@ -11,8 +11,15 @@
         integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous" />
 
     <!-- My CSS -->
-    <link rel="stylesheet" href="../../css/basic.css">
-    <link rel="stylesheet" href="../../css/post.css">
+    <link rel="stylesheet" href="../css/basic.css">
+    <link rel="stylesheet" href="../css/my-profile.css">
+
+    <!-- font -->
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Oswald:wght@300&family=Poppins&family=Roboto&family=RocknRoll+One&display=swap"
+        rel="stylesheet">
 
     <title>DiskCode</title>
 </head>
@@ -24,7 +31,7 @@
         <nav class="navbar navbar-expand-lg navbar-dark bg-2e">
             <div class="container">
                 <a href="">
-                    <img class="navbar-profile" src="../../img/profile-pic.png" alt="">
+                    <img class="navbar-profile" src="../img/profile-pic.png" alt="">
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -34,15 +41,15 @@
                     <ul class="navbar-nav">
 
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="../../index.html">Home</a>
+                            <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="../forum.html">Forum</a>
+                            <a class="nav-link active" aria-current="page" href="#">Forum</a>
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Postingan</a>
+                            <a class="nav-link active" aria-current="page" href="../pages/post/post.html">Postingan</a>
                         </li>
 
                         <li class="nav-item">
@@ -62,27 +69,27 @@
             <div class="sidebar-icons">
 
                 <a href="">
-                    <img class="sidebar-profile" src="../../img/profile-pic.png" alt="">
+                    <img class="sidebar-profile" src="../img/profile-pic.png" alt="" style="opacity: 1;">
                 </a>
 
-                <a href="../../index.html">
-                    <img class="sidebar-icon" src="../../icons/home-regular-36.png" alt="">
+                <a href="../index.html">
+                    <img class="sidebar-icon" src="../icons/home-regular-36.png" alt="">
                 </a>
 
-                <a href="../forum.html">
-                    <img class="sidebar-icon" src="../../icons/message-square-detail-regular-36.png" alt="">
-                </a>
-
-                <a href="../fr.html">
-                    <img class="sidebar-icon" src="../../icons/network-chart-regular-36.png" alt="">
+                <a href="../pages/forum.html">
+                    <img class="sidebar-icon" src="../icons/message-square-detail-regular-36.png" alt="">
                 </a>
 
                 <a href="">
-                    <img class="sidebar-active" src="../../icons/command-regular-36.png" alt="">
+                    <img class="sidebar-icon" src="../icons/network-chart-regular-36.png" alt="">
+                </a>
+
+                <a href="../pages/post/post.html">
+                    <img class="sidebar-icon" src="../icons/command-regular-36.png" alt="">
                 </a>
 
                 <a href="">
-                    <img class="sidebar-icon logout" src="../../icons/log-out-regular-36.png" alt="">
+                    <img class="sidebar-icon logout" src="../icons/log-out-regular-36.png" alt="">
                 </a>
 
             </div>
@@ -97,9 +104,9 @@
             <div class="card-body">
 
                 <div class="header">
-                    <h4>Postingan</h4>
-                    <a href="" class="float-end"><img src="../../icons/bookmark-alt-plus-solid-36.png" alt=""
-                            class="desktop notif-icon"></a>
+                    <h4>My Profile</h4>
+                    <a href="notif.html" class="float-end">
+                        <img src="../icons/notification-regular-36.png" alt="" class="desktop notif-icon"></a>
                 </div>
 
             </div>
@@ -108,25 +115,21 @@
         <div class="card">
             <div class="card-body">
 
-                <div class="row">
+                <div class="d-flex justify-content-center mb-2">
 
-                    <div class="col-12 col-md-4 d-flex justify-content-center mb-3 post-img">
-                        <a href="post-detail.html">
-                            <img src="../../img/proto.jpg" alt="" width="260px">
-                        </a>
-                    </div>
+                    <img src="../img/proto.jpg" alt="" class="profile-pic">
 
-                    <div class="col-12 col-md-4 d-flex justify-content-center mb-3  post-img">
-                        <a href="">
-                            <img src="../../img/proto.jpg" alt="" width="260px">
-                        </a>
-                    </div>
+                </div>
 
-                    <div class="col-12 col-md-4 d-flex justify-content-center mb-3 post-img">
-                        <a href="">
-                            <img src="../../img/proto.jpg" alt="" width="260px">
-                        </a>
-                    </div>
+                <h4 class="text-center open-sans username">Destrivers</h4>
+
+                <h5 class="text-center text-muted fullname roboto">Daffa Islami Azka</h5>
+
+                <h5 class="text-center text-muted email roboto">azkadaiki26@gmail.com</h5>
+
+                <div class="d-flex justify-content-center">
+
+                    <a href="../pages/edit-profile.html" class="btn btn-secondary">Edit My Profile</a>
 
                 </div>
 

@@ -1,0 +1,49 @@
+.profile-pic {
+    /* display: flex;
+    justify-self: center; */
+    width: 160px;
+    height: 160px;
+    border-radius: 100%;
+}
+
+.username {
+    margin-top: -4px;
+    font-weight: 600 !important;
+}
+
+.fullname {
+    margin-top: -6px;
+    font-weight: 590 !important;
+    font-size: 17px;
+}
+
+.email {
+    margin-top: -8px;
+    font-weight: 590 !important;
+    font-size: 17px;
+}
+
+.poppins {
+    font-family: 'Poppins',
+        sans-serif;
+}
+
+.open-sans {
+    font-family: 'Open Sans',
+        sans-serif;
+}
+
+.oswald {
+    font-family: 'Oswald',
+        sans-serif;
+}
+
+.roboto {
+    font-family: 'Roboto',
+        sans-serif;
+}
+
+.rr-one {
+    font-family: 'RocknRoll One',
+        sans-serif;
+}
